@@ -32,13 +32,14 @@ $ sudo systemctl enable mariadb
 ```
 $ sudo mysql_secure_installation
 ```
-> Enter current password for root: Press Enter
-> Set root password? n
-> Remove anonymous users? Y
-> Disallow root login remotely? Y
-> Remove test database and access to it? Y
-> Reload privilege tables now? Y
-
+```
+Enter current password for root: Press Enter
+Set root password? n
+Remove anonymous users? Y
+Disallow root login remotely? Y
+Remove test database and access to it? Y
+Reload privilege tables now? Y
+```
 Step4: Install PHP
 ```
 $ sudo apt install php-fpm php-mysql php-common php-gd php-json php-cli php-curl libapache2-mod-php
